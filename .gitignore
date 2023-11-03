@@ -49,3 +49,6 @@ po/*~
 rsconnect/
 data/.DS_Store
 .DS_Store
+
+# EDGAR Master Index
+edgar_MasterIndex/

@@ -51,7 +51,8 @@ rownames(split_names_df) <- NULL
 print(split_names_df)
 
 # Define year constant
-years_vector <- seq(1980, 2023)
+# (EDGAR starts at 2023)
+years_vector <- seq(1990, 2023)
 
 for (i in 1:nrow(split_names_df)) {
   a <- split_names_df$column1[i]
